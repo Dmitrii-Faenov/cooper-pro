@@ -1,0 +1,95 @@
+.offer {
+    color: #fff;
+    padding-top: 34px;
+    background-image: url(images/bg-noise-filter.png), linear-gradient(285.45deg, #0B3F37 20.27%, #CB8D62 151.81%);
+    position: relative;
+    overflow: hidden;
+}
+
+.offer__container::before {
+    content: "COPPER PRO";
+    position: absolute;
+    z-index: 1;
+    right: -15px;
+    bottom: 1px;
+    font-family: Lighthaus, serif;
+    display: inline-block;
+    text-align: right;
+    max-width: 206px;
+    font-size: 40px;
+    line-height: 30px;
+}
+
+.offer__container {
+    position: relative;
+}
+
+.offer__container::after {
+    content: "";
+    position: absolute;
+    top: 100px;
+    right: -280px;
+    border-radius: 50%;
+    display: block;
+    width: 476px;
+    height: 476px;
+    background: linear-gradient(67.9deg, #000000 4.32%, rgba(0, 0, 0, 0) 66.95%), no-repeat url(images/offer/offer__ellipse-bg.jpeg);
+    background-size: 45%;
+    background-position: top left;
+}
+
+.offer__condition {
+    position: relative;
+    z-index: 4;
+    font-family: Lighthaus, serif;
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+
+.offer__title {
+    position: relative;
+    z-index: 4;
+    font-family: Mont, sans-serif;
+    font-size: 14px;
+    line-height: 13.5px;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 15px;
+    max-width: 165px;
+}
+
+.offer__btn {
+    position: relative;
+    z-index: 4;
+    margin-bottom: 34px;
+}
+
+.offer__product-and-cube {
+    position: relative;
+    margin-left: 67px;
+    z-index: 3;
+}
+
+.offer__product-and-cube::after {
+    content: "";
+    position: absolute;
+    left: -40%;
+    bottom: -50%;
+    display: block;
+    width: 308px;
+    height: 681px;
+    background-image: radial-gradient(46.46% 46.46% at 50% 50%, #C4C4C4 0%, rgba(196, 196, 196, 0) 100%);
+    filter: blur(75px);
+}
+
+.offer__product {
+    position: relative;
+    left: 28px;
+    z-index: 2;
+}
+
+.offer__cube {
+    position: relative;
+    z-index: 1;
+    margin-top: -13px;
+}
