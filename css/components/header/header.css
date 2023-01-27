@@ -1,0 +1,14 @@
+.header {
+    position: absolute;
+    padding: 0;
+    width: 100%;
+}
+
+.header__tag {
+    top: 0;
+    position: absolute;
+    font-size: 12px;
+}
+
+.header__container {
+}
